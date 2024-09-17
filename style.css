@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: flex-start;
+  justify-items: center;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.btn-lotto-number {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.btn-submit {
+  display: none;
+}
+
+.green {
+  background-color: green;
+}
+
+.picks {
+  padding-left: 1rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.lotto-buttons {
+  display: none;
+  flex-wrap: wrap;
+  max-width: 17rem;
+  gap: 1rem;
+}
+
+.btn-submit {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  padding: 0.5rem 0.8rem;
+}
